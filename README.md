@@ -45,11 +45,12 @@ src/test/java/.../GreetingTest.java  test ตัวอย่าง (JUnit 6 + As
 
 Lab L1 checklist.
 
-- [ ] build เขียว: `./mvnw -B verify` ผ่านบนเครื่องของคุณ (build is green)
-- [ ] commit แดง: เพิ่ม `FizzBuzzTest` แล้ว commit ตอนที่ test ยังไม่ผ่าน (red commit)
-- [ ] commit เขียว: เขียน `FizzBuzz` ให้ test ผ่าน แล้ว commit (green commit)
-- [ ] push แล้ว CI เขียวบน GitHub (push and CI is green)
-- [ ] กรอก `docs/L1.md` ครบ (lab passport filled in)
+- [x] build เขียว: `./mvnw -B verify` ผ่านบนเครื่องของคุณ (build is green)
+- [x] commit แดง: เพิ่ม `FizzBuzzTest` แล้ว commit ตอนที่ test ยังไม่ผ่าน (red commit)
+- [x] commit เขียว: เขียน `FizzBuzz` ให้ test ผ่าน แล้ว commit (green commit)
+- [x] push แล้ว CI เขียวบน GitHub (push and CI is green)
+- [x] กรอก `docs/L1.md` ครบ (lab passport filled in)
+- [x] ระบุนโยบาย AI ขั้น R0 ไว้ใน README แล้ว (AI policy R0 documented)
 
 ## ที่มาของเครื่องมือ
 
@@ -69,5 +70,10 @@ Where the tools come from. ทุกรายการดาวน์โหล�
 
 ## นโยบาย AI ขั้น R0
 
-AI policy, level R0: ถามให้ AI อธิบายได้ แต่ห้ามวางcode หรือ test ที่ AI เขียนให้ และให้เขียนบรรทัด `AI used for: … / none` ใน `docs/L1.md`
-(Ask AI to explain, never paste AI-written code or tests; record it in the `AI used for:` line.)
+นโยบาย AI ขั้น R0
+AI policy, level R0:
+- อนุญาตให้ถาม AI เพื่อขอคำอธิบาย แนวคิด หรือความช่วยเหลือในการทำความเข้าใจเท่านั้น
+- ห้ามคัดลอกหรือนำ code หรือ test ที่ AI เขียนให้ไปวางส่งเป็นงานของตนเอง
+- หากใช้ AI ให้บันทึกวัตถุประสงค์การใช้งานใน docs/L1.md ตามรูปแบบ AI used for: …
+- หากไม่ได้ใช้ AI ให้บันทึก AI used for: none ใน docs/L1.md
+  (Ask AI to explain concepts, but do not paste AI-written code or tests into your work. Record the purpose in docs/L1.md using AI used for: …, or write AI used for: none if no AI was used.)
